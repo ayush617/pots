@@ -151,9 +151,81 @@
     .dislike:hover > .dislike1 + .dislike1 {
       display: inherit;
     }
+
+    /*top */
+    .main_menu_bg{
+  margin-top:0px;
+}
+.main_menu_bg .navbar-default {
+    background-color: transparent; 
+    border-color: transparent; 
+  transition:.6s;
+}
+.container-fluid {
+    margin-top: 20px;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+  color:#3c3c3c;
+}
+.main_menu_bg .navbar {
+    margin-bottom:0px;
+}
+.main_menu_bg .navbar-default .navbar-nav>.active>a{
+  border:1px solid transparent;
+}
+.main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+  color:#3c3c3c;
+  background-color:transparent;
+  border:1px solid #666;
+  text-transform:uppercase;
+}
+
+.main_menu_bg .navbar-nav>li>a{
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
   </style>
 </head>
 <body>
+    <header id="home" class="header">
+    <div class="main_menu_bg navbar-fixed-top wow slideInDown" data-wow-duration="1s">
+      <div class="container">
+        <div class="row">
+          <div class="nave_menu">
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              </button>
+              
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              
+              <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="#">Products</a></li>
+              
+              
+              </ul>
+            </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+          </div>  
+        </div><!--End of row -->
+        
+      </div><!--End of container -->
+      
+    </div>
+  </header> <!--End of header -->
+  <br><br><br><br>
 <div class="container">
   <div class="col-md-6">
     <div class="product__carousel">
@@ -218,8 +290,8 @@
     <span class="star fa fa-star checked"></span>
     <span class="star fa fa-star checked"></span>
     <span class="star fa fa-star"></span>
-    <h3><span class="price">₹ 1000.00</span> <span class="price1">₹ 500.00</span></h3>
-    <h5><span class="save">You save: ₹ 500.00 (50%)</span></h5>
+    <h3><span class="price">₹ 1000.00</span>&nbsp;&nbsp;&nbsp;<span class="price1">₹ 500.00</span></h3>
+    <h5><span class="save">You save: ₹ 500.00 (50%) Off</span></h5>
     <div class="row info">
       <div class="col-md-4">
         Info1
