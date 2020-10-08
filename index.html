@@ -2,7 +2,7 @@
 <html lang="en-US">
 
 <head>
-	<link rel="shortcut icon" href="images/logo.jpeg">
+	<link rel="shortcut icon" href="images/logo/logo.jpeg">
 	<meta charset="UTF-8">
 	<title>DEKORA HOMES</title>
 	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
@@ -461,7 +461,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-sm-6 col-xs-12">
-					<p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by <a href="#">Dekora Homes</a>. </p>
+					<p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by <a href="#">Dekora Homes</a>. </p>
 				</div>
 				<div class="col-md-4 col-sm-6 col-xs-12">
 					<ul class="social-icons">
@@ -486,6 +486,11 @@
 	<script type="text/javascript" src="js/jquery-easing/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="js/wow/wow.min.js"></script>
 	<script>
+		$(document).ready(function() {
+			// $(window).scrollTop(0);
+			document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		});
 	// If user clicks anywhere outside of the modal, Modal will close
 	var modal = document.getElementById('modal-wrapper');
 	window.onclick = function(event) {
